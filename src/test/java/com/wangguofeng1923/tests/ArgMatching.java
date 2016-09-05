@@ -7,7 +7,11 @@ import java.util.HashMap;
 import org.junit.Assert;
 import org.junit.Test;
 import org.mockito.Mockito;
-
+/**
+ * anyInt,anyString在要对一些mock对象参数进行通配的时候比较适用
+ * @author admin
+ *
+ */
 public class ArgMatching {
 	@Test
 	public void anyInt(){
